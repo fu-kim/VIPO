@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>eye</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2_1游戏mobile" transform="translate(-240.000000, -9059.000000)">
+            <g id="9" transform="translate(0.000000, 8471.000000)">
+                <g id="Group-6-Copy-3" transform="translate(226.000000, 588.000000)">
+                    <g id="icon/star-copy" transform="translate(14.000000, 0.000000)">
+                        <g id="ic_star">
+                            <polygon id="Bounds" fill-opacity="0" fill="#FF0000" points="0 0 56 0 56 56 0 56"></polygon>
+                            <rect id="Rectangle" stroke="#FFFFFF" opacity="0.800000012" x="0.5" y="0.5" width="55" height="55" rx="10"></rect>
+                        </g>
+                        <g id="ic_visibility" transform="translate(9.000000, 10.000000)">
+                            <polygon id="Bounds" fill-opacity="0" fill="#FF0000" points="0 0 38 0 38 36 0 36"></polygon>
+                            <path d="M19,9.33333333 C12.8311688,9.33333333 7.56298701,13.0653333 5.42857143,18.3333333 C7.56298701,23.6013333 12.8311688,27.3333333 19,27.3333333 C25.1688312,27.3333333 30.437013,23.6013333 32.5714286,18.3333333 C30.437013,13.0653333 25.1688312,9.33333333 19,9.33333333 L19,9.33333333 Z M19,24.3333333 C15.5948052,24.3333333 12.8311688,21.6453333 12.8311688,18.3333333 C12.8311688,15.0213333 15.5948052,12.3333333 19,12.3333333 C22.4051948,12.3333333 25.1688312,15.0213333 25.1688312,18.3333333 C25.1688312,21.6453333 22.4051948,24.3333333 19,24.3333333 L19,24.3333333 Z M19,14.7333333 C16.9519481,14.7333333 15.2987013,16.3413333 15.2987013,18.3333333 C15.2987013,20.3253333 16.9519481,21.9333333 19,21.9333333 C21.0480519,21.9333333 22.7012987,20.3253333 22.7012987,18.3333333 C22.7012987,16.3413333 21.0480519,14.7333333 19,14.7333333 L19,14.7333333 Z" id="Shape" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登录</title>
+<!-- 引用bootstrap样式表 -->
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+</head>
+<body>
+	<div class="container-fluid" style="background:#cfe3f5;">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-image: url(http://127.0.0.1:8089/ViPofile/images/BG2.png); height:600px;">
+
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<a href="#"><img src="http://127.0.0.1:8089/ViPofile/images/logod.png" width="120px" height="55px"></a>
+			</div>
+
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<div style="text-align:center;height:100px;">
+					
+				</div>
+				<div style="text-align:center;margin-left:10%;margin-right:10%;background:white;">
+					<br/>
+					<p><a href="#"><img src="http://127.0.0.1:8089/ViPofile/images/logo.png" width="66px"></a></p>
+					<h4>账号登录</h4>
+					<br/>
+					<br/>
+					<div style="text-align:center;margin-left:10%;margin-right:10%">
+						<form id="formlogin">
+							<p><input placeholder="请输入账号" type="text"  name="name" id="name" class="form-control"/></p>
+							<p><input placeholder="请输入密码" type="password" name="password" id="password" class="form-control"/></p>
+							<div style="text-align:right">
+								<label class="checkbox" contenteditable="true"><input type="checkbox" />两周内自动登录</label>
+							</div>
+							<span id="tip" style="color:red;"></span>
+							<p><button class="btn btn-info btn-block btn-large" type="button" id="btnLogin">登录</button></p>
+							</form>
+							<p><button class="btn btn-block btn-large btn-link" style="border:1px solid;" type="button"><a href="regis.html">注册</a></button></p>
+							<p><a href="#">忘记密码</a></p>
+							<p></p>
+							<p style="font-size:12px;color:gray">————&nbsp;&nbsp;其他方式登录&nbsp;&nbsp;————</p>
+							<p>
+								<a href="#"><img src="http://127.0.0.1:8089/ViPofile/images/qq-info.png" width="20px"></a>&nbsp;
+								<a href="#"><img src="http://127.0.0.1:8089/ViPofile/images/wx-info.png" width="20px"></a>&nbsp;
+								<a href="#"><img src="http://127.0.0.1:8089/ViPofile/images/zfb-info.png" width="20px"></a>&nbsp;
+								<a href="#"><img src="http://127.0.0.1:8089/ViPofile/images/wb-info.png" width="20px"></a>&nbsp;
+								<a href="#"><img src="http://127.0.0.1:8089/ViPofile/images/rr-info.png" width="20px"></a>&nbsp;
+							</p>
+							<br/>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+		</div>
+	</div>
+	<div style="text-align:center;width:100%;margin-top:50px;">
+		<br/>
+		<p><div style="font-size:12px;color:gray"><a href="#"><img src="http://127.0.0.1:8089/ViPofile/images/lxwm.png" width="20px">&nbsp;在线客服</a>&nbsp;&nbsp;&nbsp;&nbsp; <img src="http://127.0.0.1:8089/ViPofile/images/dh.png" width="15px" height="18px">400-678-9688(24小时全国服务热线)</div></p>
+		<p style="font-size:12px;color:gray">COPYRIGHT ©2011-2018 广东步步高电子工业有限公司 版权所有 保留一切权利 | 隐私政策 | 法律声明 | 粤B2-20080267 | 粤ICP备05100288号</p>
+	</div>
+	 <script src="js/jquery-1.12.4.min.js"></script>
+	 <script>
+	 $(function(){
+			$('#btnLogin').on('click',function(){
+				$.ajax({
+					url:'login',
+					method:'post',
+					data:$('#formlogin').serialize(),
+					success:function(result){
+						if(result.code==200){
+							window.location.href="service.html"//返回上一页
+						}else{
+							$('#tip').text(result.message);
+						}
+					}
+				});
+			});
+		});
+	 </script>
+</body>
+</html>

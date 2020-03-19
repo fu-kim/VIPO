@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="me_files/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="me_files/infostyle.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="row">
+				<div class="col-md-12" style="margin-right: 27px; float: left; font-family: MyriadPro-Regular;line-height: 78px;font-size: 16px;">
+					<a href="javascript:;" class="aheader">VIPO 官网</a>
+					<a href="javascript:;" class="aheader">ColorOS</a>
+					<a href="javascript:;" class="aheader">云服务</a>
+					<a href="javascript:;" class="a_out aheader">退出</a>
+					<div class="header_language">
+						<span class="icdown" id="isture">简体中文 ▼</span>
+						<div class="changeBox" id="list">
+							<div>简体中文</div>
+							<div>繁体中文</div>
+							<div>English</div>
+						</div>
+					</div>
+					<a href="javascript:;" class="help aheader">帮助中心</a>
+				</div>
+			</div>
+		</div>
+		<div class="box">
+			<div class="box_header boxSmall">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="profile_userInfo">
+							<div class="userInfo">
+								<img src="me_files/default.png" class="userImg">
+								<div class="userInfo_name" name="username">
+									用户12138
+								<span>
+									<img src="me_files/updeate.png">
+								</span>
+								</div>
+								<div class="userInfo_phone" name="userohone">
+									12345678910
+								</div>
+								<div class="integral integralMobil">
+									<span class="integral_num">0</span>
+									积分
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="box">
+			<div class="row">
+				<div class="col-md-12">
+						<div class="box_content">
+							<div class="content">
+								<div class="item">
+									<div class="item_info">
+									<br>
+									<img src="me_files/zhaq.png" style="position: absolute;left: 0;top: 28px;">
+										<p class="item_title">账号密码</p>
+										<p class="item_name"></p>
+										<p class="item_submit">用于保护账号安全</p>
+									</div>
+									<button type="button" class="btn_s btn_style buttonInline" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">修改</button>
+								</div>
+								<div class="item" style="top: 80px;">
+									<div class="item_info">
+										<br>
+									<img src="me_files/emaq.png" style="position: absolute;left: 0;top: 28px;">
+										<p class="item_title">安全邮箱</p>
+										<p class="item_name"></p>
+										<p class="item_submit">安全邮箱可用于登录 OPPO 帐号，重置密码或其他安全验证</p>
+									</div>
+									<button type="button" class="btn_s btn_style buttonInline" data-toggle="modal" data-target="#exampleModa2" data-whatever="@getbootstrap">修改</button>
+								</div>
+								<div class="item" style="top: 160px;">
+									<div class="item_info">
+									<br>
+									<img src="me_files/smrz.png" style="position: absolute;left: 0;top: 28px;">
+										<p class="item_title">实名认证</p>
+										<p class="item_name"></p>
+										<p class="item_submit">实名认证可以完善您的账号信息安全</p>
+									</div>
+									<button type="button" class="btn_s btn_style buttonInline" data-toggle="modal" data-target="#exampleModa3" data-whatever="@getbootstrap">去认证</button>
+								</div>
+								<div class="item" style="top: 240px;">
+									<div class="item_info">
+									<br>
+									<img src="me_files/myinfo.png"style="position: absolute;left: 0;top: 28px;">
+										<p class="item_title">我的信息</p>
+										<p class="item_name"></p>
+										<p class="item_submit">管理修改您的账号信息</p>
+									</div>
+									<button type="button" class="btn_s btn_style buttonInline" data-toggle="modal" data-target="#exampleModa4" data-whatever="@getbootstrap">查看</button>
+								</div>
+								<div class="item" style="top: 320px;">
+									<div class="item_info">
+									<br>
+									<img src="me_files/sqgl.png" style="position: absolute;left: 0;top: 28px;">
+										<p class="item_title">授权管理</p>
+										<p class="item_name"></p>
+										<p class="item_submit">可以查看并管理您的OPPO账号的授权管理</p>
+									</div>
+									<button type="button" class="btn_s btn_style buttonInline" data-toggle="modal" data-target="#exampleModa5" data-whatever="@getbootstrap">查看</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<p>
+				<span>© 2005 - 2019 OPPO 版权所有 粤ICP备14056724号-2</span>
+				<span>联系方式：4001-666-888</span>
+				</p>
+			</div>
+	</div>
+<!-- 账号密码模态框 -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  	<div class="modal-dialog" role="document">
+    <div class="modal-content" style="width: 450px; margin: auto;">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" align="center" id="exampleModalLabel">修改密码</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group" align="center">
+          	<div style="padding-right:265px;">
+          	 <label for="recipient-name" class="control-label">原密码:</label>
+          	 </div>
+            <input type="password" class="form-control" id="recipient-name" style="width: 320px;height: 45px;">
+             <p></p>
+             <div style="padding-right:265px;">
+          	 <label for="recipient-name" class="control-label">新密码:</label>
+          	</div>
+          	 <input type="password" class="form-control" id="recipient-name" placeholder="输入新密码" style="width: 320px;height: 45px;">
+          	 <input type="password" class="form-control" id="recipient-name" placeholder="再次输入新密码" style="width: 320px;height: 45px;">
+          	 <p style="color: #D7D2DC;font-size: 12px; font-weight:700">密码由6~16位数字，字母或符号组成，至少包含两种字符</p>
+          	 <br>
+          	 <input type="button" name="" class="btn btn_style btn_s" style="width: 100px;height: 40px;" value="取消">
+          	 <input type="button" name="" class="btn btn_style btn_s" style="width: 100px;height: 40px; background-color: #2AD181; color: #fff;"value="确定">
+          </div>
+        </form>
+      </div>
+    </div>
+  	</div>
+</div>
+<!-- 邮箱安全模态框 -->
+<div class="modal fade" id="exampleModa2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabe1">
+  	<div class="modal-dialog" role="document">
+    <div class="modal-content" style="width: 450px; margin: auto;">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" align="center" id="exampleModalLabe2">验证身份</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group" align="center">
+          		<p>
+          			<span>点击发送邮件按钮，将发送一条含有数字验证码的邮件</span>
+          			<br>
+          			<span>至您的邮箱</span> <span style="color: #2AD181;">12445667778@qq.com</span>
+          			<span>,用于验证身份</span>
+          		</p>
+          		<br>
+          	 <input type="button" name="" class="btn btn_style btn_s" style="width: 200px;height: 40px; background-color: #2AD181; color: #fff;"value="发送邮件">
+          </div>
+        </form>
+      </div>
+    </div>
+  	</div>
+</div>
+<!-- 实名认证模态框 -->
+<div class="modal fade" id="exampleModa3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  	<div class="modal-dialog" role="document">
+    <div class="modal-content" style="width: 450px; margin: auto;">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" align="center" id="exampleModalLabe3">实名认证</h4>
+        <p align="center">请确认是您本人，并填写真实信息</p>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group" align="center">
+          	<div style="padding-right:265px;">
+          	 <label for="recipient-name" class="control-label">真实姓名:</label>
+          	 </div>
+            <input type="text" class="form-control" id="recipient-name" placeholder="请输入真实姓名" style="width: 320px;height: 45px;">
+             <p></p>
+             <div style="padding-right:265px;">
+          	 <label for="recipient-name" class="control-label">身份证号:</label>
+          	</div>
+          	 <input type="text" class="form-control" id="recipient-name" placeholder="请输入本人身份证号" style="width: 320px;height: 45px;">
+          	 <br>
+          	 <input type="button" name="" class="btn btn_style btn_s" style="width: 100px;height: 40px;" value="取消">
+          	 <input type="button" name="" class="btn btn_style btn_s" style="width: 100px;height: 40px; background-color: #2AD181; color: #fff;"value="确定">
+          </div>
+        </form>
+      </div>
+    </div>
+  	</div>
+</div>
+<!-- 个人信息模态框 -->
+<div class="modal fade" id="exampleModa4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+
+  <div class="modal-dialog" role="document">    <div class="modal-content" style="width: 450px; margin: auto;">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" align="center" id="exampleModalLabe4">个人信息</h4>
+      	<div class="modal-body">
+      		<div class="form-group">
+      			
+      		</div>
+      	</div>
+      </div>
+    </div>
+  	</div>
+</div>
+<div class="modal fade" id="exampleModa5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+
+  <div class="modal-dialog" role="document">    <div class="modal-content" style="width: 450px; margin: auto;">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" align="center" id="exampleModalLabe4">授权管理</h4>
+      	<div class="modal-body">
+      		<div class="form-group">
+      			<p align="center">您的账号当前暂无授权登录第三应用</p>
+      		</div>
+      	</div>
+      </div>
+    </div>
+  	</div>
+</div>
+	<script type="text/javascript" src="me_files/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="me_files/bootstrap.js"></script>
+	<script type="text/javascript">
+		var status =0;
+		$('#isture').on('click',function(){
+			var obj=document.getElementById('list');
+			if (status==0) {
+				obj.style.cssText="display:block;";
+				status=1;
+			}
+			else{
+				obj.style.cssText="display:none;";
+				status=0;
+			}
+		})
+	</script>
+	<script type="text/javascript">
+		$('#exampleModal').on('show.bs.modal', function (event) {
+  		var button = $(event.relatedTarget)
+  		var recipient = button.data('whatever')
+  		var modal = $(this)
+		})
+	</script>
+
+</body>
+</html>

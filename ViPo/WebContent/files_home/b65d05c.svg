@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <g id="appearance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4_1结构_全景屏设计pc" transform="translate(-1259.000000, -2343.000000)">
+            <g id="2" transform="translate(1.000000, 1440.000000)">
+                <g id="样张-copy" transform="translate(679.000000, 586.000000)">
+                    <g id="Group-11" transform="translate(579.000000, 0.000000)">
+                        <circle id="Oval" fill="#FFFFFF" cx="22" cy="339" r="22"></circle>
+                        <path d="M31,336.600781 L27.0806248,341.5 L34.9193752,341.5 L31,336.600781 Z" id="Triangle" stroke="#1BC9BE" stroke-width="2" fill="#1BC9BE" fill-rule="nonzero" transform="translate(31.000000, 338.750000) rotate(90.000000) translate(-31.000000, -338.750000) "></path>
+                        <path d="M13.7808688,335.976086 L17.700244,340.875305 C18.0452535,341.306567 17.9753321,341.935859 17.5440702,342.280869 C17.3667572,342.422719 17.1464466,342.5 16.9193752,342.5 L9.08062485,342.5 C8.5283401,342.5 8.08062485,342.052285 8.08062485,341.5 C8.08062485,341.272929 8.1579056,341.052618 8.29975604,340.875305 L12.2191312,335.976086 C12.5641407,335.544824 13.1934331,335.474903 13.624695,335.819912 C13.6823598,335.866044 13.734737,335.918421 13.7808688,335.976086 Z" id="Triangle-Copy" fill="#1BC9BE" fill-rule="nonzero" transform="translate(13.000000, 338.750000) scale(-1, 1) rotate(90.000000) translate(-13.000000, -338.750000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/star copy 12</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/star-copy-12" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="game_iconMic">
+            <polygon id="Bounds" fill-opacity="0" fill="#FF0000" points="0 0 56 0 56 56 0 56"></polygon>
+            <rect id="Rectangle" stroke="#FFFFFF" opacity="0.800000012" x="0.5" y="0.5" width="55" height="55" rx="10"></rect>
+        </g>
+        <g id="ic_keyboard_voice" transform="translate(17.000000, 12.000000)" fill="#FFFFFF">
+            <path d="M11.5,20.2105263 C14.2271429,20.2105263 16.4121429,17.9536842 16.4121429,15.1578947 L16.4285714,5.05263158 C16.4285714,2.25684211 14.2271429,0 11.5,0 C8.77285714,0 6.57142857,2.25684211 6.57142857,5.05263158 L6.57142857,15.1578947 C6.57142857,17.9536842 8.77285714,20.2105263 11.5,20.2105263 L11.5,20.2105263 Z M20.2071429,15.1578947 C20.2071429,20.2105263 16.0342857,23.7473684 11.5,23.7473684 C6.96571429,23.7473684 2.79285714,20.2105263 2.79285714,15.1578947 L0,15.1578947 C0,20.9178947 4.46857143,25.6505263 9.85714286,26.4757895 L9.85714286,32 L13.1428571,32 L13.1428571,26.4757895 C18.5314286,25.6673684 23,20.9178947 23,15.1578947 L20.2071429,15.1578947 L20.2071429,15.1578947 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

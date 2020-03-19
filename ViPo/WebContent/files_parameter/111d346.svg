@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2783px" height="2783px" viewBox="0 0 2783 2783" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="29.2216342%" y1="29.0949789%" x2="105.308236%" y2="77.292649%" id="linearGradient-1">
+            <stop stop-color="#84EADB" offset="0%"></stop>
+            <stop stop-color="#80B4EC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="95.3379054%" y1="40.0016563%" x2="38.5675867%" y2="90.5924362%" id="linearGradient-2">
+            <stop stop-color="#65DEDE" offset="0%"></stop>
+            <stop stop-color="#43A5DE" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-3" cx="1391.5" cy="1391.5" r="1391.5"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oval-Copy">
+            <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+            <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>camera_iconSeparate</title>
+    <desc>Created with Sketch.</desc>
+    <g id="camera_iconSeparate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="64" height="64"></rect>
+        <path d="M53,15.2 L53,40.4 C53,42.71 51.11,44.6 48.8,44.6 L23.6,44.6 L19.4,44.6 L19.4,40.4 L19.4,15.2 C19.4,12.89 21.29,11 23.6,11 L48.8,11 C51.11,11 53,12.89 53,15.2 Z M11,19.4 L15.2,19.4 L15.2,48.8 L44.6,48.8 L44.6,53 L15.2,53 C12.89,53 11,51.11 11,48.8 L11,19.4 Z M35.85,19.4724138 C33.3494612,19.4724138 31.3241379,21.4977371 31.3241379,23.9982759 C31.3241379,26.4988147 33.3494612,28.5241379 35.85,28.5241379 C38.3505388,28.5241379 40.3758621,26.4988147 40.3758621,23.9982759 C40.3758621,21.4977371 38.3505388,19.4724138 35.85,19.4724138 Z M36.2,30.6 C32.695625,30.6 25.7,32.3196667 25.7,35.7333333 L25.7,38.3 L46.7,38.3 L46.7,35.7333333 C46.7,32.3068333 39.704375,30.6 36.2,30.6 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+    </g>
+</svg>

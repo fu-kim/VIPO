@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>分享得优惠</title>
+<style type="text/css">
+	.body{
+		background-image: url(http://127.0.0.1:8089/ViPofile/images/Share.jpg);
+	}
+	.imgs{
+		width: 110px;
+		height: 110px;
+		position: fixed;
+		left:459px;
+		bottom: 125px;
+		background-color: while;
+	}
+</style>
+</head>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+			$.ajax({
+				url: 'getusers',
+				method: 'get',
+				success: function(result){
+					if(result.code == 200){
+						//请求回来获取用户ID后构建支付请求的url
+						var payurl = 'https://api.qrserver.com/v1/create-qr-code/?size=110x110&data=http://192.168.43.134:8080/ViPo/payment?userId='+result.data.u_id
+						$('.imgs').prop('src',payurl);
+						//发送一个阻塞请求，当手机端请求处理完后将执行当前页面的响应
+						$.ajax({
+							url: 'shareCallback',
+							method: 'get',
+							success: function(result){
+								//alert(result.code);
+								if(result.data == 200) {
+									location.href="coupons.html";
+								}
+							}
+						});
+					}else{
+						location.href="login.html";
+					}
+				}
+			});
+		</script>
+<body class="body">
+	<img src="" class="imgs">
+</body>
+</html>

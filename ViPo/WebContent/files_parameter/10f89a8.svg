@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>game_iconHeat</title>
+    <desc>Created with Sketch.</desc>
+    <g id="game_iconHeat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_memory">
+            <polygon id="Bounds" fill-opacity="0" fill="#FF0000" points="0 0 56 0 56 56 0 56"></polygon>
+            <rect id="Rectangle" stroke="#FFFFFF" opacity="0.800000012" x="0.5" y="0.5" width="55" height="55" rx="10"></rect>
+        </g>
+        <g id="ic_open_with" transform="translate(5.000000, 5.000000)" fill="#FFFFFF">
+            <path d="M20.4444444,17.359616 L25.5555556,17.359616 L25.5555556,13.5262827 L29.3888889,13.5262827 L23,7.13739378 L16.6111111,13.5262827 L20.4444444,13.5262827 L20.4444444,17.359616 L20.4444444,17.359616 Z M17.359616,20.4444444 L13.5262827,20.4444444 L13.5262827,16.6111111 L7.13739378,23 L13.5262827,29.3888889 L13.5262827,25.5555556 L17.359616,25.5555556 L17.359616,20.4444444 L17.359616,20.4444444 Z M38.8626062,23 L32.4737173,16.6111111 L32.4737173,20.4444444 L28.640384,20.4444444 L28.640384,25.5555556 L32.4737173,25.5555556 L32.4737173,29.3888889 L38.8626062,23 L38.8626062,23 Z M25.5555556,28.640384 L20.4444444,28.640384 L20.4444444,32.4737173 L16.6111111,32.4737173 L23,38.8626062 L29.3888889,32.4737173 L25.5555556,32.4737173 L25.5555556,28.640384 L25.5555556,28.640384 Z" id="Shape" transform="translate(23.000000, 23.000000) rotate(45.000000) translate(-23.000000, -23.000000) "></path>
+        </g>
+    </g>
+</svg>

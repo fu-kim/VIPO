@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+  /*font-family: '方正悠黑 512B', '方正悠黑 510M', '方正悠黑 508R', '方正悠黑 506L', 'Microsoft YaHei';*/
+  font-family: '方正悠黑 508R', 'PingFang SC', 'Microsoft YaHei', "Helvetica Neue", 'Helvetica','Arial' !default;
+}
+
+body .win {
+  font-family: '方正悠黑 508R W', 'PingFang SC', 'Microsoft YaHei', "Helvetica Neue", 'Helvetica','Arial' !default;
+}
+
+.sec-text-suptitle,
+.sec-spec-value,
+.sec-15-sample .inbox .num,
+.sec-19-options li,
+.spec-n,
+.sec-text-cite,
+.specs-header-r15,
+.specs-header-r15m,
+.specs .specs-badge span,
+.specs-content .model-m,
+.specs-content .model-both,
+.specs-network-m .model,
+.specs-network-m .band,
+.r15-appearance-m.mstyle,
+.r15m-appearance-m.mstyle,
+.sec-1-model {
+  font-family: '方正悠黑 512B';
+}
+
+.sec-text-title,
+.sec-text-desc,
+.sec-spec-key,
+.comments ol li,
+.spec-c,
+.specs span,
+.specs p,
+.specs-content table,
+.specs-content table th,
+.specs-content table td,
+.pi-nav-btn a {
+  font-family: '方正悠黑 508R';
+}
+
+.win .sec-text-suptitle,
+.win .sec-text-title,
+.win .spec-n,
+.win .sec-text-cite,
+.win .specs-header-r15,
+.win .specs-header-r15m,
+.win .specs-badge span,
+.specs-content .model-both {
+  font-family: '方正悠黑 512B W';
+}

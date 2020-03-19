@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>fiveStar</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2_1游戏mobile" transform="translate(-81.000000, -9059.000000)">
+            <g id="9" transform="translate(0.000000, 8471.000000)">
+                <g id="Group-7-Copy-3" transform="translate(50.000000, 588.000000)">
+                    <g id="icon/star" transform="translate(31.000000, 0.000000)">
+                        <g id="ic_star">
+                            <polygon id="Bounds" fill-opacity="0" fill="#FF0000" points="0 0 56 0 56 56 0 56"></polygon>
+                            <g id="Group-8" transform="translate(11.000000, 18.000000)" fill="#FFFFFF">
+                                <polygon id="Shape" points="11.097561 19.140774 14.2629268 21 13.4229268 17.4958824 16.2195122 15.1382043 12.5368293 14.8341486 11.097561 11.5294118 9.65829268 14.8341486 5.97560976 15.1382043 8.77219512 17.4958824 7.93219512 21"></polygon>
+                                <polygon id="Shape-Copy-2" points="5.12195122 7.61136223 8.28731707 9.47058824 7.44731707 5.96647059 10.2439024 3.60879257 6.56121951 3.30473684 5.12195122 0 3.68268293 3.30473684 0 3.60879257 2.79658537 5.96647059 1.95658537 9.47058824"></polygon>
+                                <polygon id="Shape-Copy" points="23.4756098 19.140774 26.6409756 21 25.8009756 17.4958824 28.597561 15.1382043 24.914878 14.8341486 23.4756098 11.5294118 22.0363415 14.8341486 18.3536585 15.1382043 21.1502439 17.4958824 20.3102439 21"></polygon>
+                                <polygon id="Shape-Copy-3" points="17.5 7.61136223 20.6653659 9.47058824 19.8253659 5.96647059 22.6219512 3.60879257 18.9392683 3.30473684 17.5 0 16.0607317 3.30473684 12.3780488 3.60879257 15.1746341 5.96647059 14.3346341 9.47058824"></polygon>
+                                <polygon id="Shape-Copy-4" points="29.8780488 7.61136223 33.0434146 9.47058824 32.2034146 5.96647059 35 3.60879257 31.3173171 3.30473684 29.8780488 0 28.4387805 3.30473684 24.7560976 3.60879257 27.5526829 5.96647059 26.7126829 9.47058824"></polygon>
+                            </g>
+                            <rect id="Rectangle" stroke="#FFFFFF" opacity="0.800000012" x="0.5" y="0.5" width="55" height="55" rx="10"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

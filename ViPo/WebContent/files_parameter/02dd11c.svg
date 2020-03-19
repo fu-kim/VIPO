@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>game_iconAssistant</title>
+    <desc>Created with Sketch.</desc>
+    <g id="game_iconAssistant" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_star">
+            <polygon id="Bounds" fill-opacity="0" fill="#FF0000" points="0 0 56 0 56 56 0 56"></polygon>
+            <rect id="Rectangle" stroke="#FFFFFF" opacity="0.800000012" x="0.5" y="0.5" width="55" height="55" rx="10"></rect>
+        </g>
+        <g id="ic_keyboard_alt" transform="translate(16.000000, 16.000000)" fill="#FFFFFF">
+            <path d="M16.2,10.8 C17.196,10.8 18,9.996 18,9 C18,8.004 17.196,7.2 16.2,7.2 C15.204,7.2 14.4,8.004 14.4,9 C14.4,9.996 15.204,10.8 16.2,10.8 L16.2,10.8 Z M7.8,10.8 C8.796,10.8 9.6,9.996 9.6,9 C9.6,8.004 8.796,7.2 7.8,7.2 C6.804,7.2 6,8.004 6,9 C6,9.996 6.804,10.8 7.8,10.8 L7.8,10.8 Z M12,19.2 C15.132,19.2 17.796,17.196 18.78,14.4 L5.22,14.4 C6.204,17.196 8.868,19.2 12,19.2 L12,19.2 Z M11.988,0 C5.364,0 0,5.376 0,12 C0,18.624 5.364,24 11.988,24 C18.624,24 24,18.624 24,12 C24,5.376 18.624,0 11.988,0 L11.988,0 Z M12,21.6 C6.696,21.6 2.4,17.304 2.4,12 C2.4,6.696 6.696,2.4 12,2.4 C17.304,2.4 21.6,6.696 21.6,12 C21.6,17.304 17.304,21.6 12,21.6 L12,21.6 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

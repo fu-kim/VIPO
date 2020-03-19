@@ -1,0 +1,229 @@
+		.aheader{
+			font-family: MyriadPro-Regular;
+			height: 78px;
+			line-height: 78px;
+			font-size: 14px;
+			color: #7f7f7f;
+			margin-right: 27px;
+			text-decoration: none;
+		}
+		*{
+			outline: none !important;
+		}
+		.a_out{
+			font-size: 14px;
+			margin-left: 27px;
+			float: right;
+		}
+		.header_language {
+    	text-align: center;
+    	float: right;
+    	position: relative;
+    	color: #7f7f7f;
+    	font-size: 14px;
+    	line-height: 78px;
+
+		}
+		.help{
+		color: #7f7f7f !important;
+		font-size: 14px;
+		margin-right: 27px;
+		float: right;
+		cursor: pointer;	
+		}
+		.changeBox{
+    	width: 110px;
+		text-align: center;
+		background: #fff;
+		border-radius: 5px;
+		position: absolute;
+		z-index: 20;
+		top: 60px;
+		right: 0;
+		display:none;
+		-webkit-box-shadow: 1px 1px 2px 0 #d3d3d3;
+		box-shadow: 1px 1px 2px 0 #d3d3d3;
+		}
+		.changeBox div {
+    	padding: 5px 20px;
+    	cursor: pointer;
+    	height: 40px;
+    	line-height: 40px;
+		}
+		.header{
+		background: #f4f5f6;
+    	padding: 0 65px;
+    	position: relative;
+		font-family: FZYOUH_508R--GB1-4;
+		display: block;
+		width: 100%;
+		height: 78px;
+		line-height: 78px;
+		padding: 0 65px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		font-size: 16px;
+		}
+		.userInfo{
+		text-align: left;
+		color: #000;
+		position: absolute;
+		top: 0;
+		padding-left: 92px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 100%;
+		}
+		.userImg{
+		position: absolute;
+		left: 0;
+		top: 42px;
+		width: 74px;
+		height: 74px;
+		border-radius: 9px;
+		overflow: hidden;
+		}
+		.box{
+		width: 100%;
+		height: auto;
+		margin-top: 0;
+		border: none;
+		position: relative;
+		background: #fff;
+		margin: 0 auto 44px;
+		border-radius: 0;
+		box-sizing: border-box;
+		}
+		.profile_userInfo{
+		width: 1006px;
+		margin: 0 auto;
+		position: relative;
+		}
+		.userInfo_name{
+			padding-top: 54px;
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 1;
+		}
+		.userInfo_phone{
+		margin-top: 10px;
+		font-size: 15px;
+		line-height: 1;
+		font-weight: 700;
+		}
+		.integral{
+		font-size: 15px;
+		line-height: 1;
+		text-align: center;
+		font-weight: 700;
+		display: inline-block;
+		cursor: pointer;
+		color: #2ad181;
+		}
+		.integralMobil{
+		position: absolute;
+		padding: 10px 20px;
+		background: #fff;
+		border-radius: 10px;
+		top: 50px;
+		right: 0;
+		display: block;
+		}
+		.integral_num{
+		color: #2ad181;
+		cursor: pointer;
+		margin-top: 5px;
+		}
+		.box_header{
+		height: 162px;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		background: #f4f5f6;
+		text-align: center;
+		}
+		.box_content{
+		width: 896px;
+		margin: 0 auto;
+    	margin-top: 0px;
+		position: relative;
+		margin-top: 20px;
+		}
+		.item{
+		position: absolute;
+		left: 60px;
+		right: 0;
+		bottom: 0;
+		height: 1px;
+		background: #eee;
+		}
+		.item_info{
+		padding-right: 140px;
+		padding-left: 54px;
+		}
+		.item_title{
+		font-size: 16px;
+		color: #000;
+		font-weight: 700;
+		line-height: 1;
+		}
+		.item_name{
+		margin-top: 6px;
+		font-size: 14px;
+		color: #000;
+		font-weight: 700;
+		}
+		.item_submit{
+		color: #7f7f7f;
+    	font-size: 14px;
+    	}
+		.buttonInline {
+    	position: absolute;
+    	top: 15px;
+		right: 0;
+		width: 100px;
+		height: 39px;
+		line-height: 49px;
+		margin-top: -19.5px;
+		border-radius: 8px;
+		}
+		.btn_style{
+		color: #2ad181;
+		cursor: pointer;
+		margin-top: 5px;
+		background: #dff8ec;
+		border-radius: 10px;
+		}
+		.btn_style2{
+		color: #FFFFFF;
+		cursor: pointer;
+		margin-top: 5px;
+		background: #54DA9A;
+		border-radius: 10px;
+		}
+		.btn_s{
+  		display: inline-block;
+  		padding: 6px 12px;
+  		margin-bottom: 0;
+  		font-size: 14px;
+  		font-weight: normal;
+  		line-height: 1.42857143;
+  		text-align: center;
+  		white-space: nowrap;
+  		vertical-align: middle;
+  		-ms-touch-action: manipulation;
+      	touch-action: manipulation;
+  		cursor: pointer;
+  		-webkit-user-select: none;
+     	-moz-user-select: none;
+      	-ms-user-select: none;
+        user-select: none;
+  		background-image: none;
+  		border: 1px solid transparent;
+  		border-radius: 4px;
+		}
+		.footer{
+		position: relative;
+    	text-align: center;
+    	margin-bottom: 20px;
+    	margin-top: 507px;
+		}

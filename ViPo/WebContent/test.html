@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>淡入淡出轮播图</title>
+    <style type="text/css">
+        .class1,ul{                           
+            margin:0px;
+        }
+        ul{
+            padding-left: 0px;
+            list-style: none;
+        }
+        .content{                
+            position: relative;
+            width: 720px;
+            height: 352px;
+            overflow: hidden;
+            background-color: deepskyblue;
+            margin: 50px auto 0px;
+        }
+        .imglist{
+            position: absolute;
+            width: 720px;
+            height:336px;
+            background-color: palevioletred;
+        }
+        .imglist img{
+            position: absolute;
+            opacity: 0;                             
+            transition: 0.5s;
+        }
+        .imglist img.on {                           
+            opacity: 1;
+        }
+        .btnright,.btnleft                          
+        {
+            position: absolute;
+            top:50%;
+            margin-top: -25px;
+            width: 50px;
+            height: 50px;
+            background-color: ugba(0,0,0,0.7);
+            font-size: 60px;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+            cursor: pointer;
+        }
+        .btnleft{                                
+            left: 0;
+        }
+        .btnright{
+            right: 0;
+        }
+        .tab{
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .tab li{                                 
+            float: left;
+            list-style:none;
+            width: 14px;
+            height: 14px;
+            margin-right: 8px;
+            border-radius: 50%;
+            background-color: #ccc;
+            cursor: pointer;
+        }
+        .tab li.on{
+            background-color: #f70;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <div class="imglist ">
+        <ul>                            
+            <img class='on' src="./images/登录退出.png" alt="">  
+            <img class="" src="./images/个人中心.png" alt="">
+            <img class="" src="./images/购物车.png" alt="">
+        </ul>
+    </div>
+    <div class="tab">                                 
+        <ul>
+            <li class="on"></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+        <div class="btnleft">&lt;</div>
+        <div class="btnright">&gt;</div>
+</div>
+ 
+                  
+ 
+    <script>
+        var oBtnRight = document.querySelector('.btnright');   //获取右键元素
+        var oBtnLeft = document.querySelector('.btnleft');     //获取左键元素
+        var aTabs = document.querySelectorAll('.tab li');      //获取图片下方小圆点
+        var aImages = document.querySelectorAll('.imglist img');
+        var index= 0;                                          //记录下标
+        auto();                                                //自动执行函数
+        function auto(){
+            setInterval(function () {                          //定时器函数,让它按顺序不停循环。
+                aImages[index].className = '';            
+                aTabs[index].className = '';
+                index++;
+                if(index>=6)        //总共的图片只有6张，当走到第七张时，让他回到第一张图片
+                {
+                    index=0;
+                };
+                aImages[index].className = 'on';
+                aTabs[index].className = 'on';
+                console.log('你点击了鼠标',aImages[index]);
+            },4000)
+        }
+        oBtnRight.onclick = function (){            //监听鼠标点击右箭头
+            aImages[index].className = '';          //图片翻过后，清除上一张图片的'on'类名
+            aTabs[index].className = '';
+            index++;
+            if(index>=6)
+            {
+                index=0;
+            }
+            aImages[index].className = 'on';
+            aTabs[index].className = 'on';
+            console.log('你点击了鼠标',aImages[index]);
+        }
+        oBtnLeft.onclick = function () {
+            aImages[index].className = '';
+            aTabs[index].className = '';
+            index--;
+            if(index<0)
+            {
+                index=5;
+            }
+            aImages[index].className = 'on';
+            aTabs[index].className = 'on';
+        }
+    </script>
+</body>
+</html>

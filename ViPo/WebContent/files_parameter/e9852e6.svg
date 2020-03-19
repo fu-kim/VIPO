@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>game_iconGameSpace</title>
+    <desc>Created with Sketch.</desc>
+    <g id="game_iconGameSpace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_star">
+            <polygon id="Bounds" fill-opacity="0" fill="#FF0000" points="0 0 56 0 56 56 0 56"></polygon>
+            <rect id="Rectangle" stroke="#FFFFFF" opacity="0.800000012" x="0.5" y="0.5" width="55" height="55" rx="10"></rect>
+        </g>
+        <g id="ic_dashboard" transform="translate(17.000000, 17.000000)" fill="#FFFFFF">
+            <path d="M0,12.2222222 L9.77777778,12.2222222 L9.77777778,0 L0,0 L0,12.2222222 L0,12.2222222 Z M0,22 L9.77777778,22 L9.77777778,14.6666667 L0,14.6666667 L0,22 L0,22 Z M12.2222222,22 L22,22 L22,9.77777778 L12.2222222,9.77777778 L12.2222222,22 L12.2222222,22 Z M12.2222222,0 L12.2222222,7.33333333 L22,7.33333333 L22,0 L12.2222222,0 L12.2222222,0 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

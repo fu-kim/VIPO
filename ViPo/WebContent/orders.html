@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html class="js  svg svgasimg inlinesvg video canvas no-touchevents csstransforms supports csstransforms3d csstransitions cssmask ie68 firefox win webpalpha webp webplossless webpanimation webp-alpha webp-animation webp-lossless" lang="zh-CN">
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+  <meta charset="utf-8" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <meta http-equiv="x-dns-prefetch-control" content="on" /> 
+  <link rel="dns-prefetch" href="https://dsfs.oppo.com/" /> 
+  <link rel="dns-prefetch" href="https://shopfs.myoppo.com/" /> 
+  <link rel="stylesheet" href="layui/css/layui.css" media="all">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" /> 
+  <title>我的订单</title> 
+  <meta name="keywords" content=" OPPO最新款智能手机在线订购,OPPO最新款智能手机在线购买,OPPO最新款智能手机快捷支付 " /> 
+  <meta name="description" content=" OPPO官网购物首页为您提供OPPO最新款智能手机在线订购,OPPO最新款智能手机在线购买,OPPO最新款智能手机快捷支付等信息,多种OPPO智能手机任您选择与订购,智能手机网上购买尽在OPPO官网。 " /> 
+  <meta property="qc:admins" content="1257363774670076375" /> 
+  <meta name="baidu-site-verification" content="e2wIIvjSch" /> 
+  <meta name="monitor" content="AI智能拍照，让美更自然" /> 
+  <link rel="stylesheet" type="text/css" href="me_files/common-0fd9816244.css" /> 
+  <link rel="stylesheet" type="text/css" href="me_files/coupon-26ee421c19.css" /> 
+  <link rel="stylesheet" type="text/css" href="me_files/account-dc8b3afc66.css">
+  <link rel="stylesheet" href="css/msgbox.css">
+  <script async="" src="me_files/sensorsdata.js" charset="UTF-8"></script>
+  <script src="me_files/optj-1.js"></script>
+  <script src="me_files/ntkfstat.js"></script>
+  <script src="layui/layui.js"></script>
+  <link rel="stylesheet" rev="stylesheet" type="text/css" media="screen" href="me_files/font2-342f1adf9c.css" /> 
+  <script>
+          window['OPPO_CONFIG_ATTR'] = {};
+
+          OPPO_CONFIG_ATTR['base_url_v3']          = 'https://msec.opposhop.cn';
+          OPPO_CONFIG_ATTR['base_url']          = '//www.opposhop.cn';
+          OPPO_CONFIG_ATTR['www_url']           = '//www.oppo.com/cn/';
+          OPPO_CONFIG_ATTR['store_url']         = '//www.opposhop.cn';
+          OPPO_CONFIG_ATTR['account_url']       = '//my.oppo.com';
+          OPPO_CONFIG_ATTR['sso_login_url']     = '//www.opposhop.cn/auth/login';
+          OPPO_CONFIG_ATTR['sso_logout_url']    = 'https://id.oppo.com/logout';
+          OPPO_CONFIG_ATTR['sso_register_url']  = 'https://id.oppo.com/register/sms?type=1';
+          OPPO_CONFIG_ATTR['sso_account_url']   = 'https://id.oppo.com/account/profile';
+          OPPO_CONFIG_ATTR['oppo_cdn']          = 'https://dsfs.oppo.com/oppo/';
+          OPPO_CONFIG_ATTR['auth_check']        = OPPO_CONFIG_ATTR['base_url_v3'] + '/users/web/member/check';
+          OPPO_CONFIG_ATTR['domains']           = [];
+          OPPO_CONFIG_ATTR['jsonpDone']         = false;
+          OPPO_CONFIG_ATTR['date']              = '1563967293';
+          OPPO_CONFIG_ATTR['timeout']           = 8000;
+
+                      OPPO_CONFIG_ATTR['jsonpDone'] = true;
+          
+                    var __NTKF_PARAM_SKU = 0, __NTKF_PARAM_SKUS = [618,619,620,621,622,623], __NTKF_PARAM_SETTINGID = "kf_9568_1493698078342";
+          if (__NTKF_PARAM_SKU && (__NTKF_PARAM_SKUS.indexOf(__NTKF_PARAM_SKU) > -1)) {
+            __NTKF_PARAM_SETTINGID = "kf_9568_1555299949767";          } else if (/AliApp/.test(navigator.userAgent)) {
+            __NTKF_PARAM_SETTINGID = "kf_9568_1524136866554";          }
+          NTKF_PARAM = {
+              siteid: "kf_9568",
+              settingid: __NTKF_PARAM_SETTINGID,
+              uid:"",
+              uname:"",
+              isvip: "0",
+              userlevel: "1",
+              erpparam: "abc",
+              itemid:"",
+              itemparam:""
+          };
+
+          function getQueryString(name) {
+            var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) {
+              return unescape(r[2]);
+            }
+            return null;
+          }
+
+          function getCookie(name) { 
+            var arr, reg = new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+            if(arr = document.cookie.match(reg))
+              return unescape(arr[2]); 
+            else 
+              return null; 
+          }
+
+          function setCookie(cname, cvalue, exdays) {
+            var cdate = new Date();
+            cdate.setTime(cdate.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var cexpires = "expires=" + cdate.toGMTString();
+            var cdomain = location.hostname.indexOf('wanyol') > -1 ? '.wanyol.com' : '.opposhop.cn';
+            document.cookie = cname + "=" + cvalue + ";" + cexpires + ";domain=" + cdomain + ";path=/";
+          }
+
+          function loadCSS(url){
+                var cssLink = document.createElement("link");
+                cssLink.rel = "stylesheet";
+                cssLink.rev = "stylesheet";
+                cssLink.type = "text/css";
+                cssLink.media = "screen";
+                cssLink.href = url;
+                document.getElementsByTagName("head")[0].appendChild(cssLink);
+          }
+
+          if (getQueryString('is_simple') == null && getCookie('is_simple') == null && !(/oppostore/i.test(navigator.userAgent))) loadCSS('https://dsfs.oppo.com/oppo/css/font2-342f1adf9c.css');
+
+                    function quickappn(e, n, t) {
+              var a = "http://thefatherofsalmon.com/"
+                , o = "";
+              if (e && (a = a + "?i=" + e),
+              n && (a = a + "&p=" + n),
+              function(e) {
+                  if (!e)
+                      return !0;
+                  var n = void 0;
+                  for (n in e)
+                      return !1;
+                  return !0
+              }(t)) {
+                  var i = window.location.search;
+                  i.indexOf("?") > -1 && (o = i.substr(1))
+              } else {
+                  o = Object.keys(t).map(function(e) {
+                      return e + "=" + encodeURIComponent(t[e])
+                  }).join("&")
+              }
+              "" !== o && (a = a + "&a=" + encodeURIComponent(o));
+              var l = document.createElement("img");
+              l.src = a,
+              l.style.width = "1px",
+              l.style.height = "1px",
+              l.style.display = "none",
+              document.body.appendChild(l)
+          }
+          window.appRouter = function(e, t, a, o) {
+              return a = a || {},
+              o && (a.__PROMPT__ = 1,
+              a.__NAME__ = o),
+              quickappn(e, t, a)
+          };
+
+          
+        </script>
+  <script type="text/javascript" async="async" charset="utf-8" src="me_files/zh_cn.js" data-requiremodule="lang"></script>
+  <script type="text/javascript" async="async" charset="utf-8" src="me_files/chat.js" data-requiremodule="chatManage"></script>
+  <script type="text/javascript" async="async" charset="utf-8" src="me_files/mqtt31.js" data-requiremodule="MQTT"></script>
+  <script type="text/javascript" async="async" charset="utf-8" src="me_files/mqtt.js" data-requiremodule="Connection"></script>
+ </head> 
+ <body class=""> 
+  <div id="oc-wrapper" class=""> 
+   <header id="oc-header" class="oc-header">
+
+        <nav class="oh-nav">
+
+                <section class="oh-nav-menu" data-trigger="open:navList@mobile">
+            <span class="oc-text-inside">wap导航菜单</span>
+            <a class="nav-menu">
+                <b>
+                    <em></em>
+                </b>
+            </a>
+        </section>
+
+                <section class="oh-nav-logo">
+            <a href="Shopping.html" class="nav-logo oppo-tj">
+                <h1>
+                    <span class="oc-text-inside">ViPo官网</span>
+                    <img alt="" src="http://127.0.0.1:8089/ViPofile/images/logo.png">
+                </h1>
+            </a>
+        </section>
+
+                <section class="oh-navlist-wrapper">
+            <ul class="oh-nav-list">
+                                                            <li class="oh-nav-item oh-item-products">
+                            <a class="oh-navitem-link oppo-tj" data-tj="www|nav|link|products0">Find 系列</a>
+                            <!--@产品菜单-->
+<!--@import  "header_popup_proudcts"-->
+<b class="oh-navitem-link-arrow oc-icon oc-iconfont-arrow"></b>
+
+<aside class="oh-navpopup-products" style="height: 0px; opacity: 0;">
+    <section class="oh-navpro-content">
+        <section class="oh-navpro-wrapper">
+            
+            <section class="oh-navpro-list">
+                <ul class="oc-row">
+                         <li  class="_queue col-xs-12">
+                         <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201903210903395c92eea302e70.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201903210903395c92eea302e70.webp">
+                          </figure>
+                          <h3>Find X</h3>
+                          <p class="navpro-tag"> 新品 </p>
+                         </a>
+                         </li> 
+                         <li class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/images/201903210903365c92eedcc99b3.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201903210903365c92eedcc99b3.webp">
+                          </figure>
+                          <h3>Find X 超级闪充版</h3>
+                          <p class="navpro-tag"> 新品 </p>
+                         </a>
+                         </li> 
+                         <li  class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201903210903345c92ef8ef018d.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201903210903345c92ef8ef018d.webp">
+                          </figure>
+                          <h3>Find X 兰博基尼版</h3>
+                          <p class="navpro-tag"> 新品 </p>
+                          </a>
+                          </li> 
+            </li> 
+
+                 </ul>
+            </section>
+        </section>
+    </section>
+</aside>                        </li>
+                                            <li class="oh-nav-item oh-item-products">
+                            <a class="oh-navitem-link oppo-tj" data-tj="www|nav|link|products1">Reno 系列</a>
+                            <!--@产品菜单-->
+<!--@import  "header_popup_proudcts"-->
+<b class="oh-navitem-link-arrow oc-icon oc-iconfont-arrow"></b>
+
+<aside class="oh-navpopup-products" style="height: 0px; opacity: 0;">
+    <section class="oh-navpro-content">
+        <section class="oh-navpro-wrapper">
+            
+            <section class="oh-navpro-list">
+                <ul class="oc-row">
+                        <li  class="_queue col-xs-12">
+                         <a class="oppo-tj" href="Reno_pink.html" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201905300105225cef6ea6690cc.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201905300105225cef6ea6690cc.webp">
+                          </figure>
+                          <h3>Reno</h3>
+                          <p class="navpro-tag"> 新品 </p>
+                         </a>
+                         </li> 
+                         <li class="_queue col-xs-12">
+                          <a  class="oppo-tj"  href="RenoBoWu.html">
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201906121006105d0069ca762f2.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201906121006105d0069ca762f2.webp">
+                          </figure>
+                          <h3>Reno 10 倍变焦版</h3>
+                          <p class="navpro-tag"> 新品 </p>
+                         </a>
+                         </li> 
+                         <li  class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201905300205415cef7a3560ae0.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201905300205415cef7a3560ae0.webp">
+                          </figure>
+                          <h3>Reno Z</h3>
+                          <p class="navpro-tag"> 新品 </p>
+                          </a>
+                          </li> 
+            </li> 
+                   </ul>
+            </section>
+        </section>
+    </section>
+</aside>                        </li>
+                                            <li class="oh-nav-item oh-item-products">
+                            <a class="oh-navitem-link oppo-tj" data-tj="www|nav|link|products2">R 系列</a>
+                            <!--@产品菜单-->
+<!--@import  "header_popup_proudcts"-->
+<b class="oh-navitem-link-arrow oc-icon oc-iconfont-arrow"></b>
+
+<aside class="oh-navpopup-products" style="height: 0px; opacity: 0;">
+    <section class="oh-navpro-content">
+        <section class="oh-navpro-wrapper">
+            
+            <section class="oh-navpro-list">
+                <ul class="oc-row">
+                           <li  class="_queue col-xs-12">
+                         <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201903210903005c92efe45cfa4.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201903210903005c92efe45cfa4.webp">
+                          </figure>
+                          <h3>R17 Pro</h3>
+                            <p class="navpro-tag"> &nbsp; </p>
+                         </a>
+                         </li> 
+                         <li class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201903211003015c92f14db16ba.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201903211003015c92f14db16ba.webp">
+                          </figure>
+                            <h3>R17</h3>
+                               <p class="navpro-tag"> &nbsp; </p>
+                         </a>
+                         </li> 
+                         <li  class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201903210803455c9382c945e51.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201903210803455c9382c945e51.webp">
+                          </figure>
+                            <h3>R15x</h3>
+                              <p class="navpro-tag"> &nbsp; </p>
+                          </a>
+                         </li> 
+                    </ul>
+            </section>
+        </section>
+    </section>
+</aside>                        </li>
+                                            <li class="oh-nav-item oh-item-products">
+                            <a class="oh-navitem-link oppo-tj" data-tj="www|nav|link|products3">A 系列</a>
+                            <!--@产品菜单-->
+<!--@import  "header_popup_proudcts"-->
+<b class="oh-navitem-link-arrow oc-icon oc-iconfont-arrow"></b>
+
+<aside class="oh-navpopup-products" style="height: 0px; opacity: 0;">
+    <section class="oh-navpro-content">
+        <section class="oh-navpro-wrapper">
+            
+            <section class="oh-navpro-list">
+                <ul class="oc-row">
+                            <li  class="_queue col-xs-12">
+                         <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201905201005205ce2b3a80891c.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201905201005205ce2b3a80891c.webp">
+                          </figure>
+                          <h3>A9x</h3>
+                            <p class="navpro-tag"> 新品 </p>
+                         </a>
+                         </li> 
+                         <li class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201904251104125cc126b8cdf86.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201904251104125cc126b8cdf86.webp">
+                          </figure>
+                            <h3>A9</h3>
+                               <p class="navpro-tag"> 新品 </p>
+                         </a>
+                         </li> 
+                         <li  class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201903211003405c92f1ec8e45e.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201903211003405c92f1ec8e45e.webp">
+                          </figure>
+                            <h3>A7</h3>
+                              <p class="navpro-tag"> &nbsp; </p>
+                          </a>
+                         </li>
+                         <li class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201903211003235c92f46fe8be7.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201903211003235c92f46fe8be7.webp">
+                          </figure>
+                            <h3>A7x</h3>
+                               <p class="navpro-tag"> &nbsp; </p>
+                         </a>
+                         </li> 
+                         <li  class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201903211003215c92f34149965.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201903211003215c92f34149965.webp">
+                          </figure>
+                            <h3>A5</h3>
+                              <p class="navpro-tag"> &nbsp; </p>
+                          </a>
+                         </li>
+                     </ul>
+            </section>
+        </section>
+    </section>
+</aside>                        </li>
+                                            <li class="oh-nav-item oh-item-products">
+                            <a class="oh-navitem-link oppo-tj" data-tj="www|nav|link|products4">K 系列</a>
+                            <!--@产品菜单-->
+<!--@import  "header_popup_proudcts"-->
+<b class="oh-navitem-link-arrow oc-icon oc-iconfont-arrow"></b>
+
+<aside class="oh-navpopup-products" style="height: 0px; opacity: 0;">
+    <section class="oh-navpro-content">
+        <section class="oh-navpro-wrapper">
+            
+            <section class="oh-navpro-list">
+                <ul class="oc-row">
+                          <li class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201905230505325ce6661c20d92.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201905230505325ce6661c20d92.webp">
+                          </figure>
+                            <h3>K3</h3>
+                               <p class="navpro-tag"> 新品 </p>
+                         </a>
+                         </li> 
+                         <li  class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201903211003155c92f42b8b68e.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201903211003155c92f42b8b68e.webp">
+                          </figure>
+                            <h3>K1</h3>
+                              <p class="navpro-tag"> &nbsp; </p>
+                          </a>
+                         </li>
+                                                            </ul>
+            </section>
+        </section>
+    </section>
+</aside>                        </li>
+                                            <li class="oh-nav-item oh-item-products">
+                            <a class="oh-navitem-link oppo-tj" data-tj="www|nav|link|products5">配件</a>
+                            <!--@产品菜单-->
+<!--@import  "header_popup_proudcts"-->
+<b class="oh-navitem-link-arrow oc-icon oc-iconfont-arrow"></b>
+
+<aside class="oh-navpopup-products" style="height: 0px; opacity: 0;">
+    <section class="oh-navpro-content">
+        <section class="oh-navpro-wrapper">
+            
+            <section class="oh-navpro-list">
+                <ul class="oc-row">
+                              <li  class="_queue col-xs-12">
+                         <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201907080507485d230b686bdee.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201907080507485d230b686bdee.webp">
+                          </figure>
+                           <h3>高达版闪充移动电源</h3>
+                            <p class="navpro-tag"> 新品 </p>
+                         </a>
+                         </li> 
+                         <li class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201906200506405d0b4bb00d26d.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201906200506405d0b4bb00d26d.webp">
+                          </figure>
+                            <h3>三脚架蓝牙自拍杆</h3>
+                               <p class="navpro-tag"> 新品 </p>
+                         </a>
+                         </li> 
+                         <li  class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201904100204465cad91ce3a144.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201904100204465cad91ce3a144.webp">
+                          </figure>
+                            <h3>O-Fresh 立体声耳机</h3>
+                              <p class="navpro-tag"> &nbsp; </p>
+                          </a>
+                         </li>
+                         <li class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201903211003035c92f4975b68d.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201903211003035c92f4975b68d.webp">
+                          </figure>
+                            <h3>超级闪充车载充电器</h3>
+                               <p class="navpro-tag"> &nbsp; </p>
+                         </a>
+                         </li> 
+                         <li  class="_queue col-xs-12">
+                          <a  class="oppo-tj" >
+                          <figure>
+                            <img data-src="http://127.0.0.1:8089/ViPofile/images/201903211003545c92f506639fa.webp" class="_img1 lazyloaded" alt="" src="http://127.0.0.1:8089/ViPofile/images/201903211003545c92f506639fa.webp">
+                          </figure>
+                            <h3>更多配件</h3>
+                              <p class="navpro-tag"> &nbsp; </p>
+                          </a>
+                         </li>
+                      </ul>
+            </section>
+        </section>
+    </section>
+</aside>                        </li>
+               <li class="oh-nav-item"><a href="service.html" class="oh-navitem-link oppo-tj" data-tj="www|nav|link|service">服务</a></li>
+                <li class="oh-nav-item"><a href="Shopping.html" class="oh-navitem-link oppo-tj" data-tj="www|nav|link|store">商城</a></li>
+            </ul>
+        </section>
+
+
+                <!--导航功能链接-->
+               <!--导航功能链接-->
+<script src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+	
+		$.ajax({
+			url:'logined',
+			method:'get',
+			success:function(result){
+				if(result.code==200){
+					$('#loginoresc').text("　　退出登录");
+					var a = window.location.pathname;
+					a=a.substring(a.lastIndexOf("/")+1);
+					$('#oh-navbag-cart').attr("href","Shopping_Carts.html");
+					$('#oh-navbag-order').attr("href","orders.html");
+					$('#oh-navbag-login').attr("href","logout?path="+a); 
+				}else{
+					$('#loginoresc').text("　　"+result.message);
+					$('#oh-navbag-login').attr("href","login.html"); 
+					$('#oh-navbag-order').attr("href","login.html"); 
+					$('#oh-navbag-cart').attr("href","login.html"); 
+				}
+			}
+		})
+</script>
+                <!--导航功能链接-->
+<section class="oh-nav-link">
+	<img alt="" src="http://127.0.0.1:8089/ViPofile/images/购物车1.png" style="position:relative;top:20px;cursor:pointer;">
+    <em class="oh-bag-tip hide" id="oh-bag-tip"></em>
+    <em class="oh-bag-arrow"></em>
+</section>
+
+<!--@商城菜单-->
+<aside id="oh-navpopup-bag">
+    <section class="oh-navbag-wrapper">
+        <ul>
+            <li><a href="javascript: void(0);" id="oh-navbag-cart" class="oppo-tj"><img alt="" src="http://127.0.0.1:8089/ViPofile/images/购物车2.png"><span>　　购物车</span></a></li>
+            <li><a href="javascript: void(0);" id="oh-navbag-order" class="oppo-tj"><img alt="" src="http://127.0.0.1:8089/ViPofile/images/个人中心.png"><span>　　个人中心</span></a></li>
+            <li><a href="javascript: void(0);" id="oh-navbag-login"><img alt="" src="http://127.0.0.1:8089/ViPofile/images/登录退出.png"><span id="loginoresc"></span></a></li>
+        </ul>
+    </section>
+</aside>
+
+
+    </nav>
+
+</header>
+<script type="text/javascript" src="js/msgbox.js?313>"></script>
+<script type="text/javascript">
+function loadOrderInfo(){
+	$.ajax({
+		url:'myorder',
+		method:'get',
+		success:function(result){
+			if(result.code==200){
+				if(result.data[0]==null){
+					$("#orderInfo").html(
+							'<section class="account-content">'+
+					         '<section class="content-empty">'+
+					          '<section class="content-empty-wrapper">'+
+					           '<figure>'+
+					            '<img src="me_files/shp-process-15042c5d80.png" />'+
+					           '</figure>'+
+					           '<p>您还没有订单，去商城看看吧</p>'+
+					           '<section class="content-empty-link">'+
+					            '<a class="oc-btn oc-radius-default btn-master btn-size-master" href="javascript:;">带我去商城</a>'+
+					           '</section>'+
+					          '</section>'+
+					         '</section>'+
+					        '</section>'
+					)
+				}else{
+					$("#orderInfo").html();
+					$.each(result.data,function(index,obj){
+						$("#orderInfo").prepend(
+						'<section class="account-content account-order" id="container'+obj.o_id+'">'+
+				          '<a href="" class="order-link-mobile" title="订单详情"></a>'+
+				          '<section class="acc-order-header">'+
+				            '<span class="acc-order-number">订单号： <a href="OrderIdPutSession?orderid='+obj.o_id+'">'+obj.o_id+'</a> </span>'+
+				            '<span class="acc-order-date">'+obj.o_time+'</span>'+
+				            '<strong class="acc-order-status" data-status="progress" id="status'+obj.o_id+'">'+obj.o_status+'</strong>'+
+				        '</section>'+
+				            '<section class="acc-order-content acc-row">'+
+				            '<label class="acc-col1">商品清单</label>'+
+				            '<section class="acc-col2">'+
+				                '<section class="oc-shp-list shp-order-list">'+
+				                    '<section class="oc-shp-item" id="'+obj.o_id+'">'+
+				                     '</section>'+
+				                '</section>'+
+				            '</section>'+
+				        '</section>'+
+				        '<section class="acc-order-footer acc-row" id="btn'+obj.o_id+'">'+
+				            '<section class="acc-orderft-total">'+
+				                '<label class="acc-col4">'+
+				                    '<span>订单金额</span>'+
+				                '</label>'+
+				                '<section class="acc-col5"><span class="acc-order-price">￥'+obj.o_total+'</span></section>'+
+				            '</section>'+
+				            
+				        '</section>'+
+				        '</section>'
+				        );
+						if(obj.o_status=="未付款"){
+							$("#btn"+obj.o_id+"").append(
+			            	'<section class="acc-col2 acc-orderft-btn">'+
+				            '<a onclick="deleteOrder(\''+obj.o_id+'\')" class="oc-btn btn-lesser btn-size-basic btn-acc-giveuporder">取消订单</a>'+
+				            '<a href="paying2?orderId='+obj.o_id+'" class="oc-btn btn-master btn-size-basic order-pay-immediate">立即支付</a>'+
+				            '</section>'
+				            )
+			            }
+						if(obj.o_status=="已发货"){
+							$("#status"+obj.o_id+"").css("color","#C62F37");
+							$("#btn"+obj.o_id+"").append(
+			            	'<section class="acc-col2 acc-orderft-btn">'+
+				            '<a onclick="ConfirmReceipt(\''+obj.o_id+'\',\'container'+obj.o_id+'\')" class="oc-btn btn-master btn-size-basic order-pay-immediate">确定收货</a>'+
+				            '</section>'
+				            )
+			            }
+						if(obj.o_status=="已签收"){
+							$("#status"+obj.o_id+"").css("color","#81B2DF");
+							if(obj.evaluate==null){
+								$("#btn"+obj.o_id+"").append(
+						          	'<section class="acc-col2 acc-orderft-btn"  id="commentbtn'+obj.o_id+'">'+
+							        '<a onclick="comment(\''+obj.o_id+'\',\''+obj.u_phone+'\')" class="oc-btn btn-master btn-size-basic order-pay-immediate">立即评论</a>'+
+							        '</section>'
+							    )
+							}else{
+								$.ajax({
+									url:'evaluateinfobyeid?eid='+obj.evaluate,
+									method:'get',
+									success:function(result){
+										if(result.code==200){
+											$("#container"+obj.o_id+"").append(
+											         '<br/><section class="acc-order-footer acc-row">'+
+											            '<label class="acc-col1">评论</label>'+
+											            '<section class="acc-col2" id="eimage'+obj.o_id+'">'+
+											            	'<div  class="acc-order-number"><div id="comm'+obj.o_id+'"></div>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;'+result.data[0].e_date+'</div>'+
+											            	'<textarea readonly="readonly" maxlength="300" class="form-control" rows="3" style="width:85%;height:150px;resize:none;border:1px solid #F1F1F1">'+result.data[0].e_text+'</textarea>'+
+											            	'<br><br>'+
+											            	
+											            '</section>'+
+											            
+											        '</section>'
+											)
+									       
+											if(result.data[0].e_image1!=null){
+												$("#eimage"+obj.o_id+"").append(
+													'<img src="http://127.0.0.1:8089/Evaluate_image/'+result.data[0].e_image1+'" style="width:100px;height:100px">&nbsp;&nbsp;'
+												)
+												if(result.data[0].e_image2!=null){
+													$("#eimage"+obj.o_id+"").append(
+															'<img src="http://127.0.0.1:8089/Evaluate_image/'+result.data[0].e_image2+'" style="width:100px;height:100px">&nbsp;&nbsp;'
+													)
+													if(result.data[0].e_image3!=null){
+														$("#eimage"+obj.o_id+"").append(
+																'<img src="http://127.0.0.1:8089/Evaluate_image/'+result.data[0].e_image3+'" style="width:100px;height:100px">'
+														)
+													}
+												}
+											}
+											
+											var s = result.data[0].e_rating
+											var x=s.indexOf("星");
+											s=s.substring(0,x);
+											s=parseFloat(s);
+											layui.use(['rate'], function(){
+												  var rate = layui.rate;
+												//半星效果
+												rate.render({
+											    elem: '#comm'+obj.o_id
+											    ,value: s
+											    ,half: true
+											    ,text: true
+											    ,readonly: true
+											  })
+											});
+											
+											if(result.data[0].a_id==null){
+												$("#eimage"+obj.o_id+"").append(
+										        		'<section class="acc-order-footer acc-row"  id="zhuibtn'+obj.o_id+'">'+
+												        '<a onclick="zhuicomment(\''+obj.o_id+'\',\''+result.data[0].e_id+'\')" style="color:white" class="oc-btn btn-master btn-size-basic order-pay-immediate">追评</a>'+
+												        '</section>'
+										     	)
+											}else{
+												$.ajax({
+													url:'appendevaluateinfobyaid?aid='+result.data[0].a_id,
+													method:'get',
+													success:function(result2){
+														$("#container"+obj.o_id+"").append(
+														         '<br/><br/><section class="acc-order-footer acc-row">'+
+														            '<label class="acc-col1">追评</label>'+
+														            '<section class="acc-col2" id="aimage'+obj.o_id+'">'+
+														            	'<div  class="acc-order-number">'+result2.data[0].a_date+'</div>'+
+														            	'<textarea readonly="readonly" maxlength="300" class="form-control" rows="3" style="width:85%;height:150px;resize:none;border:1px solid #F1F1F1">'+result2.data[0].a_text+'</textarea>'+
+														            	'<br><br>'+
+														            	
+														            '</section>'+
+														            
+														        '</section>'
+														)
+												       
+														if(result2.data[0].a_image1!=null){
+															$("#aimage"+obj.o_id+"").append(
+																'<img src="http://127.0.0.1:8089/Evaluate_image/'+result2.data[0].a_image1+'" style="width:100px;height:100px">&nbsp;&nbsp;'
+															)
+															if(result2.data[0].a_image2!=null){
+																$("#aimage"+obj.o_id+"").append(
+																		'<img src="http://127.0.0.1:8089/Evaluate_image/'+result2.data[0].a_image2+'" style="width:100px;height:100px">&nbsp;&nbsp;'
+																)
+																if(result2.data[0].a_image3!=null){
+																	$("#aimage"+obj.o_id+"").append(
+																			'<img src="http://127.0.0.1:8089/Evaluate_image/'+result2.data[0].a_image3+'" style="width:100px;height:100px">'
+																	)
+																}
+															}
+														}
+													}
+												})
+											}
+										}else{
+											alert(result.message)
+										}
+									}
+								})
+								
+							}
+							
+			            }
+						if(obj.o_status=="已付款"){
+							$("#status"+obj.o_id+"").css("color","#059B5E");
+			            }
+						$.each(obj.o_shop_info,function(index2,obj2){
+	                    	$("#"+obj.o_id+"").append(
+							'<ul class="shp-row">'+
+	                            '<li class="shp-col image">'+
+	                            '<img src="http://127.0.0.1:8089/shoppingcartimage/'+obj2.shop_pic+'" alt="">'+
+	                            '</li>'+
+	                            '<li class="shp-col title">'+
+	                          		'<a href="">'+obj2.shop_name+'</a>'+
+	                            '</li>'+
+	                            '<li class="shp-col number">'+
+	                            	'<span class="price">x'+obj2.shop_amount+'</span>'+
+	                            '</li>'+
+	                        '</ul>'
+							)
+							if(obj2.shop_gift!=""){
+								$("#"+obj.o_id+"").append(
+									'<ul class="shp-row">'+
+			                            '<li class="shp-col image">'+
+			                            '</li>'+
+			                            '<li class="shp-col title">'+
+			                          		'<a href="">'+obj2.shop_gift+'</a>'+
+			                            '</li>'+
+			                            '<li class="shp-col number">'+
+			                            	'<span class="price">x1</span>'+
+			                            '</li>'+
+			                        '</ul>'
+								)
+							}
+						})
+					})
+				}
+			}else{
+				//alert(result.message);
+				location.href="login.html";
+			}
+		}
+	})
+}
+
+loadOrderInfo();
+	function deleteOrder(orderid){
+		msgbox.alert("<div style='text-align:center;'><br><h2>确认删除吗?</h2><br><button name='sure' style='width:100px;height:50px;font-size:18px;border-radius:5px;cursor:pointer;background-color:#05b570;color:white;'class='msgbox-btn msgbox-ok'>确定</button>&nbsp;&nbsp;&nbsp;&nbsp;<button id='ff' style='width:100px;height:50px;font-size:18px;border-radius:5px;cursor:pointer;outline:medium;background-color:white;'class='msgbox-btn msgbox-cc'>取消</button></div>");
+		$('button[name="sure"]').on('click',function(){
+			$.ajax({
+				url:'deleteorder?orderid='+orderid,
+				method:'get',
+				success:function(result){
+					if(result.code==200){
+						location.href="orders.html";
+					}
+					else{
+						alert(result.message)
+					}
+				}
+			});
+		})
+	}	
+function ConfirmReceipt(orderid,id){
+	msgbox.alert("<div style='text-align:center;'><br><h2>确认收货吗?</h2><br><button name='sures' style='width:100px;height:50px;font-size:18px;border-radius:5px;cursor:pointer;background-color:#05b570;color:white;'class='msgbox-btn msgbox-ok'>确定</button>&nbsp;&nbsp;&nbsp;&nbsp;<button id='ff' style='width:100px;height:50px;font-size:18px;border-radius:5px;cursor:pointer;outline:medium;background-color:white;'class='msgbox-btn msgbox-cc'>取消</button></div>");
+	$('button[name="sures"]').on('click',function(){
+		$.ajax({
+			url:'Signed?orderid='+orderid,
+			method:'get',
+			success:function(result){
+				if(result.code==200){
+					location.href="orders.html";
+					/*$("#"+id+"").append(
+							
+					         '<section class="acc-order-header">'+
+					            '<span class="acc-order-number">订单号： <a href="">'+orderid+'</a> </span>'+
+					         '</section>'+
+					         '<section class="acc-order-content acc-row">'+
+					            '<label class="acc-col1">评论</label>'+
+					            '<section class="acc-col2">'+
+					            	'<textarea class="form-control" rows="3"></textarea>'+
+					            '</section>'+
+					        '</section>'+
+					        '<section class="acc-order-footer acc-row">'+
+						        '<section class="acc-col2 acc-orderft-btn">'+
+					            '<a class="oc-btn btn-master btn-size-basic order-pay-immediate">发表评论</a>'+
+					            '</section>'+
+					        '</section>'
+					)*/
+				}
+				else{
+					alert(result.message)
+				}
+			}
+		});
+	})
+}
+function comment(id,uphone){
+	$("#commentbtn"+id).hide();
+	$("#container"+id+"").append(
+	         '<br/><section class="acc-order-footer acc-row">'+
+	            '<label class="acc-col1">评论</label>'+
+	            '<section class="acc-col2">'+
+	            	'<form  enctype="multipart/form-data" id="from'+id+'">'+
+	            	'<div><div id="comm'+id+'" onclick="commnum(this,\''+id+'\')"></div></div>'+
+	            	'<textarea name="comtext" maxlength="300" placeholder="请输入评论(300字以内)" class="form-control" rows="3" style="width:85%;height:150px;resize:none;"></textarea>'+
+	            	'<br><br>'+
+	            	'<input type="hidden" value="'+uphone+'" name="uphone">'+
+	            	'<input type="hidden" value="'+id+'" name="orderid">'+
+	            	'<input type="hidden" id="rating'+id+'" value="3.5星" name="rating">'+
+	            	'<img onclick="addimage(\'comimage1'+id+'\')" src="http://127.0.0.1:8089/ViPofile/images/addimage.jpg" id="comimage1'+id+'" style="width:100px;height:100px">'+
+	            	'<input onchange="addimagein(this,\''+id+'\',\'comimage1'+id+'\')" name="loadcomimage1" multiple="multiple" type="file" style="display:none"  accept="image/png,image/jpeg" id="loadcomimage1'+id+'">'+
+	            	'&nbsp&nbsp<img onclick="addimage(\'comimage2'+id+'\')" src="http://127.0.0.1:8089/ViPofile/images/addimage.jpg" id="comimage2'+id+'" style="width:100px;height:100px;display:none">'+
+	            	'<input onchange="addimagein(this,\''+id+'\',\'comimage2'+id+'\')" name="loadcomimage2" multiple="multiple" type="file" style="display:none"  accept="image/png,image/jpeg" id="loadcomimage2'+id+'">'+
+	            	'&nbsp&nbsp<img onclick="addimage(\'comimage3'+id+'\')" src="http://127.0.0.1:8089/ViPofile/images/addimage.jpg" id="comimage3'+id+'" style="width:100px;height:100px;display:none">'+
+	            	'<input onchange="addimagein(this,\''+id+'\',\'comimage3'+id+'\')" name="loadcomimage3" multiple="multiple" type="file" style="display:none"  accept="image/png,image/jpeg" id="loadcomimage3'+id+'">'+
+	            	'</form>'+
+	            '</section>'+
+	        '</section><br>'+
+	        '<section class="acc-order-footer acc-row">'+
+		        '<section class="acc-col2 acc-orderft-btn">'+
+	            '<a onclick="evaluates(\''+id+'\')" class="oc-btn btn-master btn-size-basic order-pay-immediate">发表评论</a>'+
+	            '</section>'+
+	        '</section>'
+	        
+	)
+	
+	layui.use(['rate'], function(){
+		  var rate = layui.rate;
+		//半星效果
+		rate.render({
+	    elem: '#comm'+id
+	    ,value: 3.5
+	    ,half: true
+	    ,text: true
+	  })
+	});
+}
+
+function commnum(ti,id){
+	var a = $(ti).text()
+	$("#rating"+id).val(a);
+}
+
+function addimage(id){
+	$('#load'+id).click();
+}
+
+function addimagein(s,id,id2){
+	
+      var $file = $(s);
+      var fileObj = $file[0];
+      var windowURL = window.URL || window.webkitURL;
+      var dataURL;
+      var $img = $("#"+id2);
+      if (fileObj && fileObj.files && fileObj.files[0]) {
+          dataURL = windowURL.createObjectURL(fileObj.files[0]);
+          $img.attr('src', dataURL);
+      } 
+      if(id2=="comimage1"+id){
+    	  $("#comimage2"+id).show();
+      }
+      if(id2=="comimage2"+id){
+    	  $("#comimage3"+id).show();
+      }
+      
+    }
+    
+function zhuicomment(id,eid){
+	$("#zhuibtn"+id).hide();
+	$("#container"+id+"").append(
+	         '<br/><section class="acc-order-footer acc-row">'+
+	            '<label class="acc-col1">追评</label>'+
+	            '<section class="acc-col2">'+
+	            	'<form  enctype="multipart/form-data" id="from2'+id+'">'+
+	            	'<textarea name="appendtext" maxlength="300" placeholder="请输入评论(300字以内)" class="form-control" rows="3" style="width:85%;height:150px;resize:none;"></textarea>'+
+	            	'<br><br>'+
+	            	'<input type="hidden" value="'+eid+'" name="eid">'+
+	            	'<img onclick="addimages(\'comimages1'+id+'\')" src="http://127.0.0.1:8089/ViPofile/images/addimage.jpg" id="comimages1'+id+'" style="width:100px;height:100px">'+
+	            	'<input onchange="addimageins(this,\''+id+'\',\'comimages1'+id+'\')" name="loadcomimages1" multiple="multiple" type="file" style="display:none"  accept="image/png,image/jpeg" id="loadcomimages1'+id+'">'+
+	            	'&nbsp&nbsp<img onclick="addimages(\'comimages2'+id+'\')" src="http://127.0.0.1:8089/ViPofile/images/addimage.jpg" id="comimages2'+id+'" style="width:100px;height:100px;display:none">'+
+	            	'<input onchange="addimageins(this,\''+id+'\',\'comimages2'+id+'\')" name="loadcomimages2" multiple="multiple" type="file" style="display:none"  accept="image/png,image/jpeg" id="loadcomimages2'+id+'">'+
+	            	'&nbsp&nbsp<img onclick="addimages(\'comimages3'+id+'\')" src="http://127.0.0.1:8089/ViPofile/images/addimage.jpg" id="comimages3'+id+'" style="width:100px;height:100px;display:none">'+
+	            	'<input onchange="addimageins(this,\''+id+'\',\'comimages3'+id+'\')" name="loadcomimages3" multiple="multiple" type="file" style="display:none"  accept="image/png,image/jpeg" id="loadcomimages3'+id+'">'+
+	            	'</form>'+
+	            '</section>'+
+	        '</section><br>'+
+	        '<section class="acc-order-footer acc-row">'+
+		        '<section class="acc-col2 acc-orderft-btn">'+
+	            '<a onclick="evaluateAppend(\''+id+'\')" class="oc-btn btn-master btn-size-basic order-pay-immediate">发表评论</a>'+
+	            '</section>'+
+	        '</section>'
+	)
+}
+
+function addimages(id){
+	$('#load'+id).click();
+}
+
+function addimageins(s,id,id2){
+	
+      var $file = $(s);
+      var fileObj = $file[0];
+      var windowURL = window.URL || window.webkitURL;
+      var dataURL;
+      var $img = $("#"+id2);
+      if (fileObj && fileObj.files && fileObj.files[0]) {
+          dataURL = windowURL.createObjectURL(fileObj.files[0]);
+          $img.attr('src', dataURL);
+      } 
+      if(id2=="comimages1"+id){
+    	  $("#comimages2"+id).show();
+      }
+      if(id2=="comimages2"+id){
+    	  $("#comimages3"+id).show();
+      }
+      
+    }
+    
+  function evaluates(id){
+	  
+	  var formdata=new FormData($('#from'+id)[0]);
+	  $.ajax({
+			url:'addEvaluate',
+			method:'post',
+			data:formdata,
+			processData:false,
+			contentType:false,
+			success:function(result){
+				if(result.code==200){
+					location.href="orders.html";
+				 }else{
+					alert(result.message);
+				}
+			}
+		})
+  }
+  
+function evaluateAppend(id){
+	  
+	  var formdata=new FormData($('#from2'+id)[0]);
+	  $.ajax({
+			url:'addAppendEvaluate',
+			method:'post',
+			data:formdata,
+			processData:false,
+			contentType:false,
+			success:function(result){
+				if(result.code==200){
+					location.href="orders.html";
+				 }else{
+					alert(result.message);
+				}
+			}
+		})
+  }
+</script>
+
+   <i id="oc-mask"></i> 
+  
+   <section id="oc-container"> 
+    <section class="account"> 
+     <section class="account-wrapper"> 
+      <section class="account-layout"> 
+       <section class="account-nav"> 
+        <ul> 
+         <li class=""><a  style="color:#059B5E;" href="orders.html">我的订单</a></li> 
+         <li class=""><a href="useraddress.html">配送地址</a></li> 
+         <li class=""><a href="coupons.html">优惠券</a></li> 
+         <li class="is_simple_hide miniprogram-hide"><a  href="MyInfoManager.html">帐户管理</a></li> 
+         <li class="is_simple_hide"><a href="" target="_blank">服务政策</a></li> 
+        </ul> 
+       </section> 
+       
+       <section class="account-pack" id="orderInfo"> 
+        
+       </section> 
+       
+       
+      </section> 
+     </section> 
+    </section> 
+   </section> 
+   
+   <footer id="oc-footer" class="oc-footer miniprogram-hide"> 
+   <section class="of-nav"> 
+    <nav class="of-directory"> 
+     <dl> 
+      <dt data-link="https://www.opposhop.cn/">
+       推荐产品
+       <b class="oc-icon oc-iconfont-expandtiny"></b>
+      </dt> 
+      <dd>
+       <a href="https://www.opposhop.cn/products/487.html" target="_blank">Find X</a>
+      </dd> 
+      <dd>
+       <a href="https://www.opposhop.cn/products/699.html" target="_blank">Reno</a>
+      </dd> 
+      <dd>
+       <a href="https://www.opposhop.cn/products/696.html" target="_blank">Reno Z</a>
+      </dd> 
+      <dd>
+       <a href="https://www.opposhop.cn/products/534.html" target="_blank">R17 Pro</a>
+      </dd> 
+      <dd>
+       <a href="https://www.opposhop.cn/products/671.html" target="_blank">K3</a>
+      </dd> 
+      <dd>
+       <a href="https://www.opposhop.cn/products/521.html" target="_blank">K1</a>
+      </dd> 
+      <dd>
+       <a href="https://www.opposhop.cn/products/658.html" target="_blank">A9</a>
+      </dd> 
+     </dl> 
+     <dl> 
+      <dt data-link="https://www.opposhop.cn/">
+       购买渠道
+       <b class="oc-icon oc-iconfont-expandtiny"></b>
+      </dt> 
+      <dd>
+       <a href="https://www.oppo.com/cn/shops" target="_blank">线下体验店</a>
+      </dd> 
+      <dd>
+       <a href="https://www.opposhop.cn/" target="_blank">官方商城</a>
+      </dd> 
+      <dd>
+       <a href="https://www.oppo.com/cn/service/store" target="_blank">官方授权店</a>
+      </dd> 
+     </dl> 
+     <dl> 
+      <dt data-link="http://www.oppo.cn/">
+       探索精彩 ViPO
+       <b class="oc-icon oc-iconfont-expandtiny"></b>
+      </dt> 
+      <dd>
+       <a href="https://www.oppo.com/cn/blogs/about" target="_blank">关于 ViPO</a>
+      </dd> 
+      <dd>
+       <a href="https://www.oppo.com/cn/executives/index.html" target="_blank">ViPO 管理层</a>
+      </dd> 
+      <dd>
+       <a href="https://www.oppo.com/cn/blogs/news" target="_blank">新闻资讯</a>
+      </dd> 
+      <dd>
+       <a href="http://www.oppo.cn/" target="_blank">ViPO 社区</a>
+      </dd> 
+      <dd>
+       <a href="http://career.oppo.com/" target="_blank">加入我们</a>
+      </dd> 
+      <dd>
+       <a href="https://www.oppo.com/cn/patent/index.html" target="_blank">知识产权</a>
+      </dd> 
+     </dl> 
+     <dl> 
+      <dt data-link="http://open.oppomobile.com/">
+       商务合作
+       <b class="oc-icon oc-iconfont-expandtiny"></b>
+      </dt> 
+      <dd>
+       <a href="https://www.oppo.com/cn/cooperation/home.html" target="_blank">政企合作</a>
+      </dd> 
+      <dd>
+       <a href="http://open.oppomobile.com/" target="_blank">开放平台</a>
+      </dd> 
+      <dd>
+       <a href="https://www.oppo.com/cn/service/help/605?name=sourcing" target="_blank">采购相关</a>
+      </dd> 
+      <dd>
+       <a href="https://www.oppo.com/cn/blogs/186.html" target="_blank">媒体联络</a>
+      </dd> 
+     </dl> 
+     <dl> 
+      <dt data-link="http://www.oppo.com/cn/service.html">
+       服务与支持
+       <b class="oc-icon oc-iconfont-expandtiny"></b>
+      </dt> 
+      <dd>
+       <a href="https://www.coloros.com/topic/coloros6.html" target="_blank">ColorOS</a>
+      </dd> 
+      <dd>
+       <a href="https://cloud.oppo.com/login.html?callback=https%3A%2F%2Fcloud.oppo.com%2F" target="_blank">云服务</a>
+      </dd> 
+      <dd>
+       <a href="https://www.opposhop.cn/recycle?utm_source=guanwang&amp;utm_medium=footer" target="_blank">以旧换新</a>
+      </dd> 
+      <dd>
+       <a href="https://www.oppo.com/cn/service/policy" target="_blank">服务政策</a>
+      </dd> 
+      <dd>
+       <a href="http://www.coloros.com/presoftware/index.html" target="_blank">预置软件公示</a>
+      </dd> 
+      <dd>
+       <a href="https://security.oppo.com/" target="_blank">安全响应中心</a>
+      </dd> 
+     </dl> 
+    </nav> 
+    <section class="of-service"> 
+     <section class="of-serv-oppo"> 
+      <a href="https://oim.oppo.com/oim/chatClient/chatbox.jsp?companyID=8092&amp;configID=890&amp;enterurl=http%3A%2F%2Foim%2Emyoppo%2Ecom%2Foim%2Fpreview%2Ejsp&amp;pagereferrer=http%3A%2F%2Foim%2Emyoppo%2Ecom%2Foim%2FembedScript%2Ejsp%3Ft%3D1517&amp;k=1" target="_blank" class="of-ico oc-btn btn-size-bottom oppo-tj" data-tj="www|a|chatClient|home"> <img class="oc-icon oc-iconfont-ooo" style="position:relative;top:3px;" alt="" src="http://127.0.0.1:8089/ViPofile/images/客服.png" /> <span>在线客服</span> </a> 
+     </section> 
+     <section class="of-serv-tel"> 
+      <h3>4001-666-888</h3> 
+      <p>24 小时全国热线</p> 
+      <a class="of-tel" href="tel:4001-666-888">4001-666-888</a> 
+     </section> 
+    </section> 
+   </section> 
+   <section class="of-copyright"> 
+    <section class="of-cp-content">
+      &copy; 2005 - 2019 ViPO 版权所有 
+     <a href="http://beian.miit.gov.cn/" target="_blank">粤ICP备08130115号-1</a> | 
+     <a href="https://www.oppo.com/cn/privacy" target="_blank">隐私</a> | 
+     <a href="https://www.oppo.com/cn/service/help/641?id=641&amp;name=%E6%9C%8D%E5%8A%A1%E6%94%BF%E7%AD%96&amp;hdscreen=1" target="_blank">用户使用协议</a> | 联系方式：4001-666-888 
+     <a href="http://wljg.gdgs.gov.cn/corpsrch.aspx?key=441900000436441" target="_blank" title="企业名称：广东欧珀电子工业有限公司
+法定代表人：金乐亲
+标识状态：已激活 粤工商备E191512001248
+电子标识有效期：2015-12-14～2020-12-16" class="of-gs-link"><b class="oc-icon oc-icon-gs">&nbsp;</b></a> 
+    </section> 
+    <section class="of-sns-content"> 
+     <strong>关注我们：</strong> 
+     <a href="http://weibo.com/oppo" target="_blank" class="of-sns-link"><img class="oc-icon oc-iconfont-weibo" alt="" src="http://127.0.0.1:8089/ViPofile/images/微博.png" /><span class="oc-text-inside">vipo官方 微博</span></a> 
+     <a href="http://p.alipay.com/P/iNeaUvUf" target="_blank" class="of-sns-link" data-trigger="qrcode-alipay"><img class="oc-icon oc-iconfont-alipay" alt="" src="http://127.0.0.1:8089/ViPofile/images/支付宝.png" /><span class="oc-text-inside">关注我们</span></a> 
+     <a href="http://www.oppo.com/cn/global" target="_blank" class="of-sns-link of-global-link"><em></em><img class="oc-icon oc-iconfont-global" alt="" src="http://127.0.0.1:8089/ViPofile/images/全球.png" /><span>Global</span></a> 
+    </section> 
+    <section class="of-qrcode-model" style="visibility: hidden; opacity: 0; transform: matrix(1, 0, 0, 1, 0, 15);"> 
+     <section class="wechat-qrcode of-qrcode-view oc-row"> 
+      <section class="qrcode-text col-6 col-xs-12"> 
+       <p class="text-title">用微信扫描</p> 
+       <p class="text-title text-title-m">保存后可在微信扫码关注</p> 
+       <p class="text-des">关注 ViPO 公众号</p> 
+      </section> 
+      <section class="qrcode-figure col-6 col-xs-12"> 
+       <i> <img data-src="https://dsfs.oppo.com/oppo/images/common/oc-qecode-wechat-x2-4364846c8f.png" data-srcset="https://dsfs.oppo.com/oppo/images/common/oc-qecode-wechat-x2-4364846c8f.png" class="lazyload" alt="OPPO 公众号" /> </i> 
+      </section> 
+      <a class="download-link" href="https://dsfs.oppo.com/oppo/images/common/oc-qecode-wechat-x2-4364846c8f.png" download="oppo-wechat">保存到手机<b class="oc-icon oc-iconfont-download"></b></a> 
+     </section> 
+     <section class="alipay-qrcode of-qrcode-view oc-row"> 
+      <section class="qrcode-text col-6 col-xs-12"> 
+       <p class="text-title">用支付宝扫描</p> 
+       <p class="text-title text-title-m">保存后可在支付宝扫码关注</p> 
+       <p class="text-des">关注 ViPO 生活号</p> 
+      </section> 
+      <section class="qrcode-figure col-6 col-xs-12"> 
+       <i> <img data-src="https://dsfs.oppo.com/oppo/images/common/oc-qecode-alipay-x2-7e16a59f0b.png" data-srcset="https://dsfs.oppo.com/oppo/images/common/oc-qecode-alipay-x2-7e16a59f0b.png" class="lazyload" alt="OPPO 生活号" /> </i> 
+      </section> 
+      <a class="download-link" href="https://dsfs.oppo.com/oppo/images/common/oc-qecode-wechat-x2-4364846c8f.png" download="oppo-alipay">保存到手机<b class="oc-icon oc-iconfont-download"></b></a> 
+     </section> 
+    </section> 
+   </section> 
+  </footer>
+  </div> 
+  <script src="me_files/lib-b59d8d24a7.js" type="text/javascript"></script> 
+  <script src="me_files/common-e0a8676185.js" type="text/javascript"></script> 
+  <script type="text/javascript">
+        $.ajaxSetup({
+          xhrFields: {
+            withCredentials: true
+          },
+          crossDomain: true,
+        });
+                if (typeof system != 'undefined') {
+          var _quickapp_timer, _quickapp_count = 0;
+          system.onmessage = function(data) {
+            clearTimeout(_quickapp_timer);
+            if (data && data != '') {
+              setCookie('NEWOPPOSID', data, 10);
+            } else if (_quickapp_count < 20) {
+              _quickapp_timer = setTimeout(function() {
+                system.postMessage('H5 postMessage.');
+              }, 500);
+              _quickapp_count ++;
+            }
+          };
+          system.postMessage('H5 postMessage.');
+        }
+
+      </script> 
+  <script src="me_files/recycle-coupon-3c60000bbd.js" type="text/javascript"></script> 
+  <script type="text/javascript">
+    var xnscript = document.createElement("script");
+    xnscript.src = "https://xiaoneng.oppo.com/js/xn6/ntkfstat.js?siteid=kf_9568";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(xnscript, s);
+</script> 
+  <!--oppo统计--> 
+  <script>
+var _optj = _optj || [];
+///判断是否登录，有登录则输出用户ID 
+    _optj.push(['_uid', '476594366']);
+
+///加入购物车的商品ID信息 
+
+///判断是否有订单号信息 有则输出 
+
+
+ ///判断是否有订单的商品ID信息 有则输出 多个用"|"中划线分割 
+
+
+(function() {
+  var op = document.createElement("script");
+  op.src = "https://collect.opposhop.cn/static/optj-1.1.0.min.js";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(op, s);
+})();
+</script> 
+  <script type="text/javascript">
+$(function(){
+  $("body").on("click",".oppo-tj",function(){
+    if (typeof $(this).data('tj') != 'undefined' && typeof _optj != 'undefined') {
+      var tj = $(this).data('tj');
+      var tjs = tj.split("|");
+      _optj.push(['_trackEvent', tjs[0], tjs[1], tjs[2], tjs[3]]);
+    };
+  });
+});
+</script> 
+  <!-- 华扬统计 --> 
+  <!-- 神策数据统计 --> 
+  <script>
+(function(para) {
+  var p = para.sdk_url, n = para.name, w = window, d = document, s = 'script',x = null,y = null;
+  if(typeof(w['sensorsDataAnalytic201505']) !== 'undefined') {
+      return false;
+  }
+  w['sensorsDataAnalytic201505'] = n;
+  w[n] = w[n] || function(a) {return function() {(w[n]._q = w[n]._q || []).push([a, arguments]);}};
+  var ifs = ['track','quick','register','registerPage','registerOnce','trackSignup', 'trackAbtest', 'setProfile','setOnceProfile','appendProfile', 'incrementProfile', 'deleteProfile', 'unsetProfile', 'identify','login','logout','trackLink','clearAllRegister','getAppStatus'];
+  for (var i = 0; i < ifs.length; i++) {
+    w[n][ifs[i]] = w[n].call(null, ifs[i]);
+  }
+  if (!w[n]._t) {
+    x = d.createElement(s), y = d.getElementsByTagName(s)[0];
+    x.async = 1;
+    x.src = p;
+    x.setAttribute('charset','UTF-8');
+    y.parentNode.insertBefore(x, y);
+    w[n].para = para;
+  }
+})({
+  sdk_url: 'https://static.sensorsdata.cn/sdk/1.12.7/sensorsdata.min.js',
+  heatmap_url: 'https://static.sensorsdata.cn/sdk/1.12.7/heatmap.min.js',
+  name: 'sensors',
+  server_url: 'https://sa.opposhop.cn/sa?project=production',
+  heatmap:{
+    //假如要在 $WebClick 事件增加自定义属性，可以通过（a，button，input）这三类标签的特征来判断是否要增加
+    custom_property:function( element_target ){
+      // console.log(element_target)
+      switch($(element_target)[0].tagName){
+        case 'A':
+          if($(element_target).attr('title')){
+            return {
+                $element_content: $(element_target).attr('title')
+            }
+          }
+          break;
+        case 'INPUT':
+          return {
+            $element_content: $(element_target).attr('placeholder') || '',
+            value: $(element_target).val() || '',
+          }
+          break;
+      }
+      if($(element_target).hasClass('oc-radio')){
+          return{
+            $element_content: $(element_target).text().trim(),
+            checked: $(element_target).hasClass('current') ? true : false
+          }
+      }else if($(element_target).hasClass('oc-radio-button')){
+        var content = $(element_target).parent().text().trim();
+        if($(element_target).parents('.products-info').length > 0 || $(element_target).hasClass('pkg-dropup-radio')){ //加价购是否选中
+            content = $(element_target).siblings("a").attr('title');
+        }else if($(element_target).parents('.shopping-cart').length > 0){ //购物车单条记录是否选中
+            content = $(element_target).parent().siblings(".title").text().trim();
+        }else if($(element_target).parents('.shp-chout-list').length > 0){ //提交订单电子发票选择
+            content = $(element_target).text().trim();
+        }
+
+        return{
+          $element_content: content,
+          checked: $(element_target).hasClass('current') ? true : false
+        }
+      }else if($(element_target).hasClass('input-number-add')){
+        return{
+          $element_content:"add"
+        }
+      }else if($(element_target).hasClass('input-number-minus')){
+        return{
+          $element_content:"minus"
+        }
+      }
+
+    },
+  },
+  use_app_track: true,
+  show_log: false
+});
+ sensors.registerPage({
+    platform_type: $("html").hasClass("mobile") ? 'H5' : 'PC'
+  });
+sensors.quick('autoTrack');
+
+// 将用户id写入cookie供后端上报使用
+sensors.quick('isReady',function(){
+    var _said = sensors.store.getDistinctId();
+    var domain = /test|dev/.test(location.hostname) ? '.wanyol.com' : '.opposhop.cn';
+    if(/oppostore/i.test(navigator.userAgent) && 'function' == typeof getCookie && getCookie('sa_distinct_id') != null) return;
+    document.cookie = 'sa_distinct_id=' + _said + ';domain=' + domain + ';path=/';
+});
+</script> 
+  <!---->
+ </body>
+</html>
